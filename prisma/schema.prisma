@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://neondb_owner:iSNq3hHo9ljc@ep-royal-meadow-a19nc2ou.ap-southeast-1.aws.neon.tech/prisma_migrate_shadow_db_4ed74113-efd5-4298-a97c-4e94759b993a?sslmode=require"
 }
 
 model User {
